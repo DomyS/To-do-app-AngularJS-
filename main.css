@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e0e0e0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header {
+    position: relative;
+    top: 20%;
+    left: 35%;
+    width: 400px;
+    height: 120px;
+    background: #7ca8ef;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px 10px 1px 1px;
+}
+    
+h1 {
+    position: relative;
+    font-family: 'Open Sans', sans-serif;
+    top: 30%;
+    left: 30%;
+    font-size: 35px;
+    
+}
+button[ng-disabled='frm.$inavlid'] {
+    margin-left: 14%;
+    margin-top: -1%;
+}
+button {
+    background: #7ca8ef;
+    border: 2px solid #7ca8ef;
+    color: white;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+button:hover {
+    background: white;
+    color: #7ca8ef;
+    border: 2px solid #7ca8ef;
+}
+button[ng-click='clearCompleted()'] {
+    position: relative;
+    margin-top: 3%;
+    left: 20%;
+
+}
+.main_body {
+    position: relative;
+    background: white;
+    width: 400px;
+    height: 400px;
+    left: 35%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1px 1px 10px 10px;
+}
+input[type=text] {
+    position: relative;
+    padding: 6px 35px;
+    margin-top: 5%;
+    left: 10%;
+}
+ul {
+    list-style-type: none;
+    
+}
+input[type=checkbox] {
+    position: relative;
+    cursor: pointer;
+}
+form {
+    font-family: 'Open Sans', sans-serif;
+}
